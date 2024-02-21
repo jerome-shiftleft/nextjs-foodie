@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default function Home() {
+  console.log('test123');
   return (
     <main>
       <h1 style={{ color: "white", textAlign: "center" }}>
