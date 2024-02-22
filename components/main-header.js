@@ -4,7 +4,7 @@ import logoImg from '@/assets/logo.png';
 export default function MainHeader() {
   return (
     <header>
-      <Link>
+      <Link href="/">
         <img src={logoImg.src} alt="A plate with food on it" />
         NextLevel Food
       </Link>
