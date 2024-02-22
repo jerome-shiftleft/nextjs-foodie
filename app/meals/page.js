@@ -1,3 +1,5 @@
+import Link from "next/link";
+import MealsGrid from "./meals-grid";
 import classes from "./page.module.css";
 
 export default function MealsPage() {
@@ -16,7 +18,9 @@ export default function MealsPage() {
           </Link>
         </p>
       </header>
-      <main className={classes.main}></main>
+      <main className={classes.main}>
+        <MealsGrid meals={[]} />
+      </main>
     </>
   );
 }
