@@ -1,11 +1,12 @@
-import Link from "next/link";
-import Image from "next/image";
-import logoImg from "@/assets/logo.png";
-import MainHeaderBackground from "./main-header-background";
-import classes from "./main-header.module.css";
-import NavLink from "./nav-link";
+import Link from 'next/link';
+import Image from 'next/image';
 
-export default function MainHeader() {  
+import MainHeaderBackground from './main-header-background';
+import logoImg from '@/assets/logo.png';
+import classes from './main-header.module.css';
+import NavLink from './nav-link';
+
+export default function MainHeader() {
   return (
     <>
       <MainHeaderBackground />
