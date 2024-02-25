@@ -1,7 +1,7 @@
-export default function mealSlug() {
+export default function MealDetailsPage() {
   return (
     <>
-      <p>Meal Detail</p>
+      <p>Meal Details</p>
     </>
   );
 }
